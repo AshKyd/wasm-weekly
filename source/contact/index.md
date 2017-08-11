@@ -9,4 +9,6 @@ Even better, would you like to guest write an article? You can [submit an articl
 
 Submit a tip
 ------------
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScDnoEdCbn85AEy3WzL0Taq_AnEe2WNVOaZbrSyQ7gNVsqSCg/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<div>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScDnoEdCbn85AEy3WzL0Taq_AnEe2WNVOaZbrSyQ7gNVsqSCg/viewform?embedded=true" width="100%" height="900" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+</div>
