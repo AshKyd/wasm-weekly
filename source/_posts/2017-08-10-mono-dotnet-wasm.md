@@ -13,6 +13,7 @@ The Mono implementation is interesting in that it can run either compiled or
 interpreted .NET code depending on the use case.
 
 > The first one uses the traditional full static compilation mode of Mono, this compiled both the Mono C runtime and the Mono class libraries along with the user code into WebAssembly code. It produces one large statically compiled application.
+>
 > The second prototype compiles the Mono C runtime into web assembly, and then uses Mono’s IL interpreter to run managed code. This one is a smaller download, but comes at the expense of performance.
 
 You can [read more on the Mono site](http://www.mono-project.com/news/2017/08/09/hello-webassembly/).

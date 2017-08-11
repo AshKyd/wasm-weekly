@@ -60,6 +60,10 @@ header.global{
 
   *{display:inline;}
 
+  .home{
+    font-weight:bold;
+  }
+
   a{text-decoration: none;}
   .nav a{margin-right:0.5em;}
   a:focus,
@@ -164,16 +168,16 @@ header.global{
     margin:0;
   }
 
-  blockquote{
-    font-size:1.2em;
-    font-style: italic;
-  }
-
   .entry-content {
     & > p,
     ul,
     blockquote{
       margin-bottom:20px;
+      border: none;
+    }
+    blockquote{
+      font-size:1.2em;
+      font-style: italic;
     }
     blockquote p{
       padding-top:30px;
@@ -204,6 +208,11 @@ header.global{
     }
     li{
       margin-left:1.1em;
+    }
+
+    & > p:last-child{
+      font-size:1.5em;
+      line-height:1.4;
     }
   }
 }
