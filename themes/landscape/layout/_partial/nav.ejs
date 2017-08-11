@@ -1,0 +1,12 @@
+<header class="global">
+  <div class="container">
+    <a href="/" class="home">
+      <span><%= config.title %></span>
+    </a>
+    <ul class="nav">
+      <% for (var i in theme.menu){ %>
+        <li><a href="<%- url_for(theme.menu[i]) %>"><%= i %></a></li>
+      <% } %>
+    </ul>
+  </div>
+</header>

@@ -1,0 +1,36 @@
+<article id="<%= post.layout %>-<%= post.slug %>" class="hentry article-type-<%= post.layout %>" itemscope itemprop="blogPost">
+  <header class="entry-header">
+    <h1 class="entry-title header-primary">
+        <%= post.title %>
+    </h1>
+    <p class="entry-meta">
+      <span class="sep">Posted </span>
+      <a href="<%- post.permalink %>" rel="bookmark permalink">
+          <time class="entry-date" datetime="<%= date_xml(post.date) %>" itemprop="datePublished"><%= date(post.date, null) %></time>
+      </a>
+    </p>
+  </header>
+
+  <div class="entry-content" itemprop="articleBody">
+    <%- partial('post/gallery') %>
+    <% if (post.excerpt && index){ %>
+      <%- post.excerpt %>
+      <% if (theme.excerpt_link){ %>
+        <p class="article-more-link">
+          <a href="<%- url_for(post.path) %>#more"><%= theme.excerpt_link %></a>
+        </p>
+      <% } %>
+    <% } else { %>
+      <%- post.content %>
+    <% } %>
+  </div>
+</article>
+
+<div class="container">
+  <h2 class="header-primary floating-content">More posts</h2>
+  <div class="teasers v1">
+    <% site.posts.sort('date', -1).limit(4).each(function(post){ %>
+      <%- partial('_partial/teaser', { post:post }) %>
+    <% }) %>
+  </div>
+</div>

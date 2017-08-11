@@ -1,0 +1,29 @@
+# Enable the rewrite engine
+RewriteEngine On
+RewriteRule ^projects/channels/.+$ https://ash.ms/projects/channels/ [R=301]
+
+RewriteRule ^rb$ http://js13kgames.com/public/games/road-blocks/index.html [R=301]
+
+# Redirect local resources to static resources.
+RewriteRule ^$ %{DOCUMENT_ROOT}/hexo/index.html [L]
+#RewriteRule ^blog/$ %{DOCUMENT_ROOT}/static/blog-index.html [L]
+#RewriteRule ^blog/(.*)/(.*)$ %{DOCUMENT_ROOT}/static/blog-$1-$2.html [L]
+#RewriteRule ^feed$ %{DOCUMENT_ROOT}/static/rss.xml [L]
+
+# Redirect everything else to it's static equivalent.
+Options -MultiViews
+RewriteCond %{REQUEST_URI} !^/hexo
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule (.*)$ hexo/$1/ [L,NS]
+
+# 404 document
+ErrorDocument 404 /hexo/404/
+
+# Set some caching
+<FilesMatch "\.(html)$">
+    Header set Cache-Control "max-age=86400"
+</FilesMatch>
+<FilesMatch "\.(js|gif|ico|css|jpg|gif|png)$">
+    Header set Cache-Control "max-age=31536000"
+</FilesMatch>

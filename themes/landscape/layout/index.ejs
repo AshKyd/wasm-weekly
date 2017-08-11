@@ -1,0 +1,7 @@
+<div class="container">
+  <div class="teasers v1">
+  <% page.posts.each(function(post, i){ if(i <24) {%>
+  <%- partial('_partial/teaser', { post:post }) %>
+  <% }}) %>
+  </div>
+</div>

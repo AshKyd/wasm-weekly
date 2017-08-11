@@ -1,0 +1,15 @@
+<article>
+<div class="entry-content blog-index">
+
+<ul>
+<% page.posts.each(function(post, i){ %>
+<li>
+    <a href="<%- url_for(post.path) %>">
+        <time><%= date(post.date, null) %></time>
+        <%= post.title %>
+    </a>
+</li>
+<% }) %>
+
+</div>
+</article>

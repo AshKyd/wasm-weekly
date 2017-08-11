@@ -1,0 +1,8 @@
+<a href="<%- url_for(post.path) %>" data-image="<%= post.image %>" class="teaser">
+  <div class="title"><%= post.title %></div>
+  <div class="entry-meta">
+    <span class="sep">Posted </span>
+    <time class="entry-date" datetime="<%= date_xml(post.date) %>" itemprop="datePublished"><%= date(post.date, null) %></time>
+  </div>
+  <div class="text"><%= post.description %></div>
+</a>

@@ -1,0 +1,20 @@
+# Header
+menu:
+  Home: /
+  Contact: /contact/
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+# Sidebar
+widgets:
+- category
+- tag
+- tagcloud
+- archive
+- recent_posts
+
+# Miscellaneous
+google_analytics:
+favicon: /favicon.png
