@@ -25,7 +25,7 @@
   %>
   <title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
 
-  <%- open_graph({ twitter_id: post.twitter || config.twitter, image: page.image || '/images/social.png' }) %>
+  <%- open_graph({ twitter_id: (typeof post !== 'undefined' && post.twitter) || config.twitter, image: page.image || '/images/social.png' }) %>
   <% if (config.feed){ %>
   <link rel="alternative" href="<%- config.feed.path %>" title="<%= config.title %>" type="application/rss+xml">
   <% } %>
