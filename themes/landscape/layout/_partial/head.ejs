@@ -25,7 +25,7 @@
   %>
   <title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
 
-  <%- open_graph({twitter_id: theme.twitter, google_plus: theme.google_plus, fb_admins: theme.fb_admins, fb_app_id: theme.fb_app_id}) %>
+  <%- open_graph({ twitter_id: post.twitter || config.twitter, image: page.image || '/images/social.png' }) %>
   <% if (config.feed){ %>
   <link rel="alternative" href="<%- config.feed.path %>" title="<%= config.title %>" type="application/rss+xml">
   <% } %>
