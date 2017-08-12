@@ -16,4 +16,6 @@ interpreted .NET code depending on the use case.
 >
 > The second prototype compiles the Mono C runtime into web assembly, and then uses Mono’s IL interpreter to run managed code. This one is a smaller download, but comes at the expense of performance.
 
-You can [read more on the Mono site](http://www.mono-project.com/news/2017/08/09/hello-webassembly/).
+[Scott Hanselman](https://www.hanselman.com/blog/NETAndWebAssemblyIsThisTheFutureOfTheFrontend.aspx) has written more about what this might mean for the .NET ecosystem, concluding “At this point it's clear that everyone is prototyping and hacking and enjoying themselves.”
+
+You can [read the original post on the Mono site](http://www.mono-project.com/news/2017/08/09/hello-webassembly/).

@@ -6,6 +6,7 @@
     "version": "3.2.2"
   },
   "scripts": {
+    "start": "npm run build;cd dist/;python -m SimpleHTTPServer ;cd ..",
     "build": "hexo clean;hexo generate"
   },
   "dependencies": {
