@@ -1,3 +1,5 @@
+[![](themes/landscape/source/images/social.png)](http://wasm.ash.ms/)
+
 Wasm Weekly
 ===========
 
