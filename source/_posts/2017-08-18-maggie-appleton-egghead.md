@@ -1,5 +1,5 @@
 title: Egghead.io's wasm art + course
-date: 2017-08-18 21:05:00
+date: 2017-08-18 20:14:00
 tags: art
 description: Maggie Appleton is a Los Angeles artist who makes awesome tech-themed art
 ---
@@ -11,6 +11,8 @@ Maggie Appleton is a Los Angeles artist who makes awesome tech-themed art for el
 
 Recently she put together a sweet WebAssembly machine artwork for the wasm series on the elearning site, and [released some words about the design process as well](https://dribbble.com/shots/3536400-How-to-Build-a-Web-Engine).
 
+> If the starting concept is some vague, complex, invisible technology notion (eg. illustrate a piece of software that controls data transfers), it adds in a whole layer of researching, making sure you understand the material, and then generating ideas for visual metaphors that will appropriately communicate the starting concept. Can take a lot of time.
+
 <div>
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BVARLt0F0XX/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Evolution from sketches to greyscale vectors to colour comps with the WebAssembly engine illustration. Trying out different palettes and colour curve adjustments on the final. #webassembly #dev #colorcomps #engine #machine #designprocess #wip #sketches #frontend #webdevelopment  #egghead #code #coding #developers #development</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by Maggie Appleton (@maggieappleton) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-06-06T16:05:40+00:00">Jun 6, 2017 at 9:05am PDT</time></p></div></blockquote>
 </div>
@@ -19,11 +21,11 @@ I'm a big fan of this style of illustration and it really makes for a compelling
 
 I don't have a subscription so I can't comment on the content itself, but the presentation is definitely up there and makes me want to check out more.
 
+Meanwhile I definitely think egghead.io should pivot into tech-themed desktop wallpapers.
+
 <div>
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BVGMIB8lase/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">WebAssembly engine final illustration. #webassembly #dev #engine #machine #designprocess #frontend #webdevelopment #egghead #code #coding #developers #development</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by Maggie Appleton (@maggieappleton) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-06-08T23:16:55+00:00">Jun 8, 2017 at 4:16pm PDT</time></p></div></blockquote>
 </div>
 <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
-
-I definitely think egghead.io should pivot into tech-themed desktop wallpapers.
 
 For more art check out [Maggie's Dribble](https://dribbble.com/mappleton), or try the [course on egghead.io](https://egghead.io/courses/get-started-using-webassembly-wasm).
